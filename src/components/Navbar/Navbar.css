@@ -1,5 +1,5 @@
 .nav {
-    background: rgb(7, 7, 102);
+    background: rgb(38, 38, 100);
     padding: 10px;
     color: rgb(231, 224, 224);
     position: relative;
@@ -15,7 +15,10 @@
 .head{
   color: rgb(231, 224, 224);
   font-size: large;
-  font-weight: 900;
+  font-weight: 800;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 2vmax;
 }
 
 .navlinks{
@@ -30,11 +33,11 @@
 .navlinks:hover{
     padding: 12px;
     background-color: rgb(231, 224, 224);
-    color: rgb(153, 153, 8);
+    color: rgb(216, 180, 21);
 }
 
 .navlogin{
-  padding: 5px;
+  padding: 5px 15px;
   color: rgb(231, 224, 224);
   background-color: rgb(13, 145, 101);
   text-decoration: none;
