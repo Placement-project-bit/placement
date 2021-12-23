@@ -1,34 +1,22 @@
-import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
-import { MenuItem } from "./MenuItem";
+import React from "react";
+import {Link} from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [clicked, setClicked] = useState(false);
-  const menuList = MenuItem.map(({ url, title }, index) => {
-    return (
-      <li key={index}>
-        <NavLink exact to={url} activeClassName="active">
-          {title}
-        </NavLink>
-      </li>
-    );
-  });
-
-  const handleClick = () => {
-    setClicked(!clicked);
-  };
-
   return (
-    <nav>
-      {/* <div className="logo">
-        VPN<font>Lab</font>
-      </div> */}
-      <div className="menu-icon" onClick={handleClick}>
-        <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
+    <div className="nav">
+      <div className="navdiv">
+        <div>
+          <a className='head' href='https://bit-bangalore.edu.in/'>BIT</a>
+          <Link className='navlinks' to='/home'>Home</Link>
+          <Link className='navlinks' to='/companydetails'>Company Details</Link>
+          <Link className='navlinks' to='/resource'>Resources</Link>
+        </div>
+        <div>
+          <Link className='navlogin' to='/login'>Login</Link>
+        </div>
       </div>
-      <ul className={clicked ? "menu-list" : "menu-list close"}>{menuList}</ul>
-    </nav>
+    </div>
   );
 };
 
