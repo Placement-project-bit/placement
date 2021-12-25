@@ -3,12 +3,23 @@ import {Link} from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
-  return (
+  return (<>
+    <div>
+      <div className="topnav" >  
+        <img  className="topnavimg" src="https://upload.wikimedia.org/wikipedia/en/d/d7/Bangalore_Institute_of_Technology_logo.png" alt="" />
+
+        <div className="h1topnav" >
+        <h2> <strong>Bangalore Institute of Technology</strong> </h2>
+        </div>
+       
+        </div> 
+
+    </div>
     <div className="nav">
       <div className="navdiv">
         <div>
-          <a className='head' href='https://bit-bangalore.edu.in/'>BIT</a>
-          <Link className='navlinks' to='/home'>Home</Link>
+          
+          <Link className='navlinks' to='/'>Home</Link>
           <Link className='navlinks' to='/companydetails'>Company Details</Link>
           <Link className='navlinks' to='/resource'>Resources</Link>
         </div>
@@ -17,6 +28,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

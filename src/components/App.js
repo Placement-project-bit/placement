@@ -11,9 +11,10 @@ function App() {
   return (
 
   <Router>
-    
+
     <Navbar/>
     <Home/>
+    
     
     </Router>
     

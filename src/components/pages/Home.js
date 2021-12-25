@@ -37,6 +37,14 @@ function Home() {
 <li>To equip our faculty members with the latest industry requisites.</li>
     </ul>
     </div>
+    {/*  <div className="extra">
+      <div >
+        <h1>companys visit</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Hic iste facilis corporis expedita est odit consequatur tempore officiis totam unde.</p>
+
+      </div>
+    </div> */ }
     
     </>
   );
