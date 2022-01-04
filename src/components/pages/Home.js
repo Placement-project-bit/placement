@@ -37,14 +37,34 @@ function Home() {
 <li>To equip our faculty members with the latest industry requisites.</li>
     </ul>
     </div>
-    {/*  <div className="extra">
-      <div >
-        <h1>companys visit</h1>
+      <div className="extra">
+      <div className="info">
+        <h1>COMPANIES VISIT BIT</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           Hic iste facilis corporis expedita est odit consequatur tempore officiis totam unde.</p>
+           Hic iste facilis corporis expedita est odit consequatur tempore officiis totam unde.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt eos nihil, assumenda voluptas earum eum! Numquam architec
+            possimus doloribus odit, ullam vero ab illo laudantium saepe distinctio porro voluptatum rem?</p>
 
       </div>
-    </div> */ }
+       <div className="info" >
+        <h1>ABOUT</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Hic iste facilis corporis expedita est odit consequatur tempore officiis totam unde.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt eos nihil, assumenda voluptas earum eum! Numquam architec
+            possimus doloribus odit, ullam vero ab illo laudantium saepe distinctio porro voluptatum rem?</p>
+                 
+
+      </div>
+       <div className="info" >
+        <h1>QUICK LINKS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Hic iste facilis corporis expedita est odit consequatur tempore officiis totam unde.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt eos nihil, assumenda voluptas earum eum! Numquam architec
+            possimus doloribus odit, ullam vero ab illo laudantium saepe distinctio porro voluptatum rem?</p>
+
+
+      </div>
+    </div>
     
     </>
   );

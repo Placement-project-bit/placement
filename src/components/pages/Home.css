@@ -48,7 +48,7 @@ img{
       margin-left: 50px;
       padding-left: 35px;
         padding-right: 35px;
-      } */ */
+      } */ 
       .vision{
         text-align: justify;
         margin-top:45px;
@@ -64,3 +64,22 @@ img{
         text-align: center;
         margin-bottom: 20px;
     }  
+    .extra{
+      display: flex;
+      margin: 50px;
+      margin-top: 45px;
+      border: 2px solid lightgray;
+      border-radius: 10px;
+    }
+    .extra h1{
+      text-align: center;
+      margin-bottom:20px ;
+      margin-top: 25px;
+    }
+    .info{
+      margin:20px;
+      margin-top: 20px;
+      padding: 10px;
+      border: 2px solid lightgray;
+      border-radius: 10px;
+    }

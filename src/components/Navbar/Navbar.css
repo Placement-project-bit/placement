@@ -47,7 +47,8 @@
   font-weight: 400;
   border-radius: 20px;
   overflow: hidden;
-  position: relative;
+  margin-right: 0px;
+  margin-left: 150px;
 
 }
 .topnavimg
