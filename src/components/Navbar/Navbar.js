@@ -8,10 +8,10 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="topnav" >  
-      <a href="https://bit-bangalore.edu.in/">
+      <a href="https://bit-bangalore.edu.in/" >
         <img  className="topnavimg" src="https://upload.wikimedia.org/wikipedia/en/d/d7/Bangalore_Institute_of_Technology_logo.png" alt="logo" />
         <p>Bangalore Institute of Technology</p>
-        <span>Placement Cell</span>
+        <span>Placement Cell</span> 
       </a>
       </div> 
 
