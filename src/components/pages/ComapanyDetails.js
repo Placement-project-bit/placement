@@ -1,10 +1,11 @@
-import React from "react";
-function ComapanyDetails() {
+import React from 'react'
+
+const ComapanyDetails = () => {
   return (
-    <div className="page-heading">
-      <h1>ComapanyDetails</h1>
+    <div>
+            
     </div>
-  );
+  )
 }
 
-export default ComapanyDetails;
+export default ComapanyDetails

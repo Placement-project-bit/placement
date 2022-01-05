@@ -13,13 +13,12 @@ function App() {
   return (
 
   <Router>
-
     <Navbar/>
-    <Home/>
     <Routes>
-      <Route path='/' >{Home }</Route>
-      <Route path='/login' >{Login}</Route>
-      <Route path='/resource'>{Resources }</Route>
+      <Route path='/' element = {<Home />}></Route>
+      <Route path='/' element = {<CompanyDetails />}></Route>
+      <Route path='/' element = {<Resources />}></Route>
+      <Route path='/' element = {<Login />}></Route>
     </Routes>
     <Footer/>
     
