@@ -5,8 +5,9 @@ function Home() {
    return (
    <>
    <div className="college">
-   <img src={image} alt=""/>
-    </div>
+   <img src={image} alt="" />
+   <div className="caption"><div>Bangalore Institute Of<br />Technology<div>Placements</div></div></div>
+  </div>
     
     <div className="about">
     <h1><strong>TRAINING AND PLACEMENT CELL</strong></h1>
