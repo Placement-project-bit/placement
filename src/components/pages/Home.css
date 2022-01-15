@@ -16,7 +16,7 @@
 .caption{
   position: absolute;
   width: 100%;
-  height: 42.5vmax;
+  height: 44vmax;
   top: 0px;
   left: 0px;
   color: white;
@@ -29,7 +29,7 @@
 
 .caption > div{
   color: white;
-  transform: translateY(14.6vmax);
+  transform: translateY(15.4vmax);
   font-size: 6.6vmax;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin-left: 5px;
@@ -47,7 +47,7 @@
 img{
     width: 100%;
     margin: 0;
-    height: 42.5vmax;
+    height: 44vmax;
     padding-top: 0;
     }
 
