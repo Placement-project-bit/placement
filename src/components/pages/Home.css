@@ -8,39 +8,33 @@
         font-family: 'Ubuntu', sans-serif;
     }
     .college{
-        align-items: center;
-        
-        
         position: relative;
         display: flex;
         justify-content: center;
-        padding: 12px;
-        margin: 2px;
         border-bottom: 2px solid purple;
         }
 img{
-    border-top-right-radius: 16px;
-    border-top-left-radius: 16px;
-    border-bottom-right-radius: 16px;
-    border-bottom-left-radius: 16px;
-    width: 95%;
+    width: 100%;
+    margin: 0;
+    height: 45vmax;
+    padding-top: 0;
     }
+
  .about{
-      text-align: justify;
+      align-items: left;
+      text-align: left;
       margin-top:45px;
-      margin-right: 50px;
-      margin-left: 50px;
-      border: 2px solid lightgray;
       padding: 35px;
       /* background-color: lightgray; */
       /* border-bottom: 2px solid purple;  */
       border-radius: 16px;
       }
       .about h1{
-          text-align: center;
+          text-align: left;
           margin-bottom: 20px;
           font-weight: 600;
-      }  
+        
+      } 
       /* .mission{
           /* background-color: lightgray; */
           /* margin-top:45px;

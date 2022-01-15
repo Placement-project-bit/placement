@@ -1,4 +1,7 @@
 .navbar{
+  position:sticky;
+  width: 100%;
+  top: 0;
   display: grid;
   grid-template-columns: 8fr 7fr 2fr;
   background-color: rgb(38, 38, 100);
@@ -6,6 +9,9 @@
   align-items: center;
   transition: all 0.5s;
   height: 7vmax;
+  z-index: 9;
+  margin: 0;
+  padding-bottom: 0;
 }
 
 .topnav a{
@@ -82,4 +88,8 @@
 
 .topnav{
   display: flex;
+}
+
+.sticky{
+  position: fixed;
 }
