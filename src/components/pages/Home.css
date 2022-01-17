@@ -56,16 +56,103 @@ img{
       text-align: left;
       margin-top:45px;
       padding: 35px;
+      padding-bottom: 0;
       /* background-color: lightgray; */
       /* border-bottom: 2px solid purple;  */
       border-radius: 16px;
+      font-family:monospace;
+  }
+  
+
+      .about p{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: lighter;
+        color: rgb(68, 68, 68);
+        font-size: 17px;
+        width: 75vw;
+        padding-bottom:0;
+        margin-left: 2vw;
       }
+
+      .about p:last-child{
+        padding-bottom: 5vw;
+      }
+
       .about h1{
           text-align: left;
+          font-family: monospace;
           margin-bottom: 20px;
           font-weight: 600;
-        
+          color: rgb(241, 86, 14);
+          font-weight: 700 bold;
+          font-size: 9vh;
+          padding-bottom: 0;
+          margin: 0;
       } 
+
+      .about h2{
+        text-align: left;
+        margin-bottom: 20px;
+        font-weight: 600;
+        color: rgb(241, 86, 14);
+        font-weight: 700 bold;
+        font-size: 6vh;
+        font-family:monospace;
+        padding-bottom: 2px;
+        margin: 2;
+        border: none;
+        text-decoration: none;
+    } 
+
+      .about div{
+          width: 5vw;
+          margin-bottom: 2vw;
+          border-bottom: 0.5vw solid rgb(38, 38, 50);
+      }
+
+      .parts{
+        margin-left: 2vmax;
+      }
+
+      .parts h3{
+        color: rgb(241, 86, 14);
+        margin-left: 2vw;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 2px;
+      }
+
+      .parts h2{
+        text-align: left;
+        font-weight: 600;
+        color: rgb(241, 86, 14);
+        font-weight: 700 bold;
+        font-size: 6vh;
+        font-family:monospace;
+        border: none;
+        text-decoration: none;
+      }
+
+      .parts button{
+        text-align: center;
+        width: 88%;
+        margin:1vh;
+        height: 12vh;
+      }
+
+      .parts button:hover{
+        box-shadow: 3px 3px rgba(0, 0, 0, 0.116);
+      }
+
+      .parts div{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: lighter;
+        color: rgb(68, 68, 68);
+        font-size: 17px;
+        width: 75vw;
+        padding-bottom: 1vh;
+        margin-left: 4vw;
+      }
+
       /* .mission{
           /* background-color: lightgray; */
           /* margin-top:45px;
